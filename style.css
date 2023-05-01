@@ -395,7 +395,7 @@ label {
 /* ------------------ mediaquery ------------------ */
 
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 366px) {
     .banner .titular{
         margin-top: 20%!important;
         font-size: 0.7rem!important;
@@ -406,7 +406,7 @@ label {
     }
 
     #habilidades .grillaUno .imagenEstudio{
-        margin-left: 3.5rem!important;
+        margin-left: 2.5rem!important;
         width: 60%;
     }
 
@@ -417,6 +417,12 @@ label {
     #habilidades .grillaDos .imagenTecnologias{
         width: 100%;
     }
+
+    .grillaCuatro{
+        margin-left: 5rem!important;
+    }
+
+}
 
     
     
@@ -470,8 +476,8 @@ label {
         vertical-align: middle !important; 
     }
 
-    #contacto .grillaCuatro {
-        margin-left: 5.5rem!important;
+    .grillaCuatro {
+        margin-left: 3rem!important;
     }
 
     #habilidades .grillaUno .imagenEstudio{
@@ -489,7 +495,7 @@ label {
 
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 450px) {
     .titular{
         font-size: 1.2rem!important;
         margin-top: 18%!important;
@@ -523,6 +529,10 @@ label {
         width: 100%;
     }
 
+    .grillaCuatro{
+        margin-left: 4.5rem!important;
+    }
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -531,11 +541,6 @@ label {
     }
 
 }
-
-@media only screen and (max-width: 767px) {
-
-}
-
 /* Estilos para pantallas pequeñas */
 @media only screen and (max-width: 767px) {
 
