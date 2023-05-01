@@ -415,6 +415,12 @@ label {
         margin-left: 6rem!important;
     }
 
+    .envioMail {
+        margin: 0;
+        margin-bottom: 5rem;        
+        font-size: 0.9rem;        
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
