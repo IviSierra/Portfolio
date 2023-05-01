@@ -394,9 +394,50 @@ label {
 
 /* ------------------ mediaquery ------------------ */
 
-/* Estilos para pantallas pequeñas */
 
-@media only screen and (max-width:558px) {
+@media only screen and (max-width: 350px) {
+    .banner .titular{
+        margin-top: 20%!important;
+        font-size: 0.7rem!important;
+    }
+
+    .grillaCuatro .contact img{
+        margin-left: 0.1rem!important;
+    }
+
+    #habilidades .grillaUno .imagenEstudio{
+        margin-left: 3.5rem!important;
+        width: 60%;
+    }
+
+    #habilidades .grillaDos {
+        margin-left: 2.5rem!important;
+        
+    }
+    #habilidades .grillaDos .imagenTecnologias{
+        width: 100%;
+    }
+
+    
+    
+
+    #formulario .item label {
+        word-wrap: break-word; 
+        padding: 1rem;
+        font-size: 0.7rem!important;
+        line-height: 1rem; 
+             
+    }
+
+    form {
+        margin: 0!important;
+        padding: 1rem;
+        vertical-align: middle !important; 
+    }
+
+}
+
+@media only screen and (max-width:550px) {
     .titular {
         font-size: 1.3rem!important;
         margin-top: 15%!important;
@@ -415,14 +456,87 @@ label {
         margin-left: 6rem!important;
     }
 
-    .envioMail {
-        margin: 0;
-        margin-bottom: 5rem;        
-        font-size: 0.9rem;        
+    #formulario .item label {
+        word-wrap: break-word; 
+        padding: 1rem;
+        font-size: 1rem!important;
+        line-height: 1rem; 
+             
+    }
+
+    form {
+        margin: 0!important;
+        padding: 1rem;
+        vertical-align: middle !important; 
+    }
+
+    #contacto .grillaCuatro {
+        margin-left: 5.5rem!important;
+    }
+
+    #habilidades .grillaUno .imagenEstudio{
+        margin-left: 7.5rem!important;
+        width: 45%;
+    }
+
+    #habilidades .grillaDos {
+        margin-left: 3rem!important;
+        
+    }
+    #habilidades .grillaDos .imagenTecnologias{
+        width: 100%;
     }
 
 }
 
+@media only screen and (max-width: 430px) {
+    .titular{
+        font-size: 1.2rem!important;
+        margin-top: 18%!important;
+    }
+
+    #formulario .item label {
+        word-wrap: break-word; 
+        padding: 1rem;
+        font-size: 0.7rem!important;
+        line-height: 1rem; 
+             
+    }
+
+    form {
+        margin: 0!important;
+        padding: 1rem;
+        vertical-align: middle !important; 
+    }
+
+    
+    #habilidades .grillaUno .imagenEstudio{
+        margin-left: 5rem!important;
+        width: 60%;
+    }
+
+    #habilidades .grillaDos {
+        margin-left: 2.5rem!important;
+        
+    }
+    #habilidades .grillaDos .imagenTecnologias{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .titular{
+        font-size: 1rem!important;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Estilos para pantallas pequeñas */
 @media only screen and (max-width: 767px) {
 
     /* Estilos para el encabezado */

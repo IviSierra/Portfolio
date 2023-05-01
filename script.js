@@ -29,10 +29,5 @@ function ocultarDivsEnPantallaPequena() {
   }
 }
 
-// Llamamos a la función cuando la página carga y cuando la ventana cambia de tamaño
-window.addEventListener('load', ocultarDivsEnPantallaPequena);
-window.addEventListener('resize', ocultarDivsEnPantallaPequena);
-
-
 
 
