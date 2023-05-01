@@ -421,12 +421,6 @@ label {
     .grillaCuatro{
         margin-left: 5rem!important;
     }
-
-}
-
-    
-    
-
     #formulario .item label {
         word-wrap: break-word; 
         padding: 1rem;
@@ -441,8 +435,8 @@ label {
         vertical-align: middle !important; 
     }
 
-}
 
+}
 @media only screen and (max-width:550px) {
     .titular {
         font-size: 1.3rem!important;
